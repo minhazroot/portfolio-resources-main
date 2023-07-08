@@ -109,3 +109,22 @@ nav ul li a:hover {
     margin-right: auto;
 
 }
+
+/* section one complit  */
+#section_two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#detels {
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 10px;
+
+
+}
