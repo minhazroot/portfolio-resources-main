@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(245, 222, 179, 0.703);
+}
+
+/* nav bae style stert  */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+nav h2 a {
+    font-weight: 3xl;
+    text-decoration: none;
+}
+
+nav>ul {
+    list-style: none;
+
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 15px;
+    padding: 7px 5px;
+}
+
+nav ul li a:hover {
+    background-color: bisque;
+}
+
+#hire_btn {
+    padding: 20px 20px;
+    background-color: orangered;
+    color: white;
+}
+
+/* nav bae style end  */
+#my_det {
+    background-image: url(../images/developer.png);
+
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    margin: 50px;
+}
+
+#my_det {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+
+#Downlode_cv {
+    padding: 15px 20px;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+#Contact {
+    padding: 15px 40px;
+    border: 2px solid red;
+    border-radius: 5px;
+    background-color: rgba(255, 166, 0, 0.436);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    border: 1px solid white;
+
+}
+
+#fast_section {
+    display: flex;
+    height: 700px;
+    width: 100%;
+}
+
+#main_img {
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+
+    background-position: right bottom;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-end;
+}
+
+#main_img img {
+    margin-top: auto;
+    margin-left: 230px;
+    margin-right: auto;
+
+}
